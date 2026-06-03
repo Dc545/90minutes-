@@ -303,3 +303,9 @@ body {
     font-weight: 700;
     margin: 8px 0;
 }
+.card-content .price {
+    color: #D4AF37;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 8px 0;
+}
