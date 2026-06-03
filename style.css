@@ -296,3 +296,10 @@ body {
         margin: 0.5rem 0;
     }
 }
+/* Menu prices */
+.card-content .price {
+    color: #D4AF37;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 8px 0;
+}
