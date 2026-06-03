@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | 90minutes Restaurant & Lounge</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- NAV - same as index -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">90<span class="gold">minutes</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="reservations.html">Reserve</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 140px;">
+        <div class="container">
+            <h1 class="section-title">Our Menu</h1>
+            
+            <h2 style="text-align:center; margin:60px 0 30px; color:#D4AF37;">Starters</h2>
+            <div class="menu-grid">
+                <div class="glass-card">
+                    <img src="https://picsum.photos/id/292/400/300" alt="Suya Wings">
+                    <div class="card-content">
+                        <h3>Suya Chicken Wings</h3>
+                        <p class="price">£12</p>
+                        <p>Spicy suya marinated wings with suya mayo</p>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <img src="https://picsum.photos/id/431/400/300" alt="Puff Puff">
+                    <div class="card-content">
+                        <h3>Puff Puff Bites</h3>
+                        <p class="price">£8</p>
+                        <p>Soft fluffy bites with honey glaze</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="text-align:center; margin:80px 0 30px; color:#D4AF37;">Mains</h2>
+            <div class="menu-grid">
+                <div class="glass-card">
+                    <img src="https://picsum.photos/id/670/400/300" alt="Jollof Ribeye">
+                    <div class="card-content">
+                        <h3>Jollof Ribeye</h3>
+                        <p class="price">£28</p>
+                        <p>Prime ribeye with smoky jollof rice & plantain</p>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <img src="https://picsum.photos/id/133/400/300" alt="Egusi">
+                    <div class="card-content">
+                        <h3>Garlic Egusi Prawns</h3>
+                        <p class="price">£19</p>
+                        <p>King prawns in rich egusi, served with fufu</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="text-align:center; margin:80px 0 30px; color:#D4AF37;">Cocktails</h2>
+            <div class="menu-grid">
+                <div class="glass-card">
+                    <img src="https://picsum.photos/id/201/400/300" alt="Negroni">
+                    <div class="card-content">
+                        <h3>90minutes Negroni</h3>
+                        <p class="price">£14</p>
+                        <p>Classic with African bitters twist</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="text-align:center; margin-top:60px;">
+                <a href="reservations.html" class="btn btn-gold large">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating buttons same as index -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/441206123456" class="float-btn whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:+441206123456" class="float-btn call"><i class="fas fa-phone"></i></a>
+    </div>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
